@@ -5,7 +5,7 @@
         "http://w3id.org/gaia-x/participant#",
         "@nest"
     ],
-    "@id": "https://hanafy.threefold.io/.well-known/participant.json",
+    "@id": "https://hanafy.threefold.io/.well-known/participant/",
     "@type": [
         "VerifiableCredential",
         "LegalPerson"
@@ -13,28 +13,28 @@
     "credentialSubject": {
         "id": "did:web:hanafy.threefold.io",
         "gx-participant:name": {
-            "@value": "Green Edge Cloud",
+            "@value": "TF",
             "@type": "xsd:string"
         },
         "gx-participant:legalName": {
-            "@value": "Green Edge Cloud Austria GmbH",
+            "@value": "Threefold",
             "@type": "xsd:string"
         },
         "gx-participant:registrationNumber": {
-            "@value": "ATU74395380",
+            "@value": "123456789",
             "@type": "xsd:string"
         },
         "gx-participant:headquarterAddress": {
             "@type": "gx-participant:Address",
             "gx-participant:country": {
-                "@value": "AT",
+                "@value": "BEL",
                 "@type": "xsd:string"
             }
         },
         "gx-participant:legalAddress": {
             "@type": "gx-participant:Address",
             "gx-participant:country": {
-                "@value": "EG",
+                "@value": "BEL",
                 "@type": "xsd:string"
             }
         },
@@ -44,7 +44,7 @@
                 "@type": "xsd:string"
             },
             "gx-service-offering:hash": {
-                "@value": "36ba819f30a3c4d4a7f16ee0a77259fc92f2e1ebf739713609f1c11eb41499e7aa2cd3a5d2011e073f9ba9c107493e3e8629cc15cd4fc07f67281d7ea9023db0",
+                "@value": "66dff909e6137af35fee0a1845ca10f520ae4920cb6756dc31d8f766b06fd05e43ece9371b7bb5ec3f9009026c9a5470dd43b88843d4f5f83ad4aebc9202b9ad",
                 "@type": "xsd:string"
             }
         }

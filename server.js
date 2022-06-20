@@ -1,13 +1,19 @@
 const express = require('express');
 const signer = require('./signer')
 
+const cors = require('cors')
+const createSd = require('./createSd')
 const app = express();
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
 
-app.get('/sign', (req, res) => {
+app.use(cors());
+
+app.use(express.json())
+
+app.post('/sign', (req, res) => {
+
+    createSd(req.body)
     signer()
-    res.send('Signed in, go to /callback')
+    res.sendStatus(200)
 })
 
 app.get('/callback', (req, res) => {
