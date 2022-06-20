@@ -5,68 +5,46 @@
         "http://w3id.org/gaia-x/participant#",
         "@nest"
     ],
-    "@id": "https://delta-dao.com/.well-known/participant.json",
+    "@id": "https://hanafy.threefold.io/.well-known/participant.json",
     "@type": [
         "VerifiableCredential",
         "LegalPerson"
     ],
     "credentialSubject": {
-        "id": "did:web:delta-dao.com",
+        "id": "did:web:hanafy.threefold.io",
         "gx-participant:name": {
-            "@value": "deltaDAO AG",
+            "@value": "Green Edge Cloud",
             "@type": "xsd:string"
         },
         "gx-participant:legalName": {
-            "@value": "deltaDAO AG",
+            "@value": "Green Edge Cloud Austria GmbH",
             "@type": "xsd:string"
         },
         "gx-participant:registrationNumber": {
-            "@value": "DEK1101R.HRB170364",
-            "@type": "xsd:string"
-        },
-        "gx-participant:leiCode": {
-            "@value": "391200FJBNU0YW987L26",
-            "@type": "xsd:string"
-        },
-        "gx-participant:ethereumAddress": {
-            "@value": "0x4C84a36fCDb7Bc750294A7f3B5ad5CA8F74C4A52",
+            "@value": "ATU74395380",
             "@type": "xsd:string"
         },
         "gx-participant:headquarterAddress": {
             "@type": "gx-participant:Address",
             "gx-participant:country": {
-                "@value": "DE",
-                "@type": "xsd:string"
-            },
-            "gx-participant:street-address": {
-                "@value": "Geibelstraße 46b",
-                "@type": "xsd:string"
-            },
-            "gx-participant:postal-code": {
-                "@value": "22303",
-                "@type": "xsd:string"
-            },
-            "gx-participant:locality": {
-                "@value": "Hamburg",
+                "@value": "AT",
                 "@type": "xsd:string"
             }
         },
         "gx-participant:legalAddress": {
             "@type": "gx-participant:Address",
             "gx-participant:country": {
-                "@value": "DE",
+                "@value": "EG",
+                "@type": "xsd:string"
+            }
+        },
+        "gx-service-offering:TermsAndConditions": {
+            "gx-service-offering:url": {
+                "@value": "https://gaia-x.gitlab.io/policy-rules-committee/trust-framework/participant/#legal-person",
                 "@type": "xsd:string"
             },
-            "gx-participant:street-address": {
-                "@value": "Geibelstraße 46b",
-                "@type": "xsd:string"
-            },
-            "gx-participant:postal-code": {
-                "@value": "22303",
-                "@type": "xsd:string"
-            },
-            "gx-participant:locality": {
-                "@value": "Hamburg",
+            "gx-service-offering:hash": {
+                "@value": "36ba819f30a3c4d4a7f16ee0a77259fc92f2e1ebf739713609f1c11eb41499e7aa2cd3a5d2011e073f9ba9c107493e3e8629cc15cd4fc07f67281d7ea9023db0",
                 "@type": "xsd:string"
             }
         }

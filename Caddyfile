@@ -1,0 +1,11 @@
+hanafy.threefold.io {
+	handle_path /lib/* {
+		reverse_proxy localhost:5000
+	}
+	handle {
+		file_server {
+			root ./static/ 
+			browse
+		}
+	}
+}
