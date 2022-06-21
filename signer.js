@@ -174,6 +174,8 @@ async function main() {
 
       const filenameCompleteSd = await createSignedSdFile(completeSd)
       logger(`📁 ${filenameCompleteSd} saved`)
+
+      return completeSd
     }
   } catch (error) {
     console.dir("Something went wrong:")

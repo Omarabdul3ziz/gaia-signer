@@ -9,11 +9,11 @@ app.use(cors());
 
 app.use(express.json())
 
-app.post('/sign', (req, res) => {
+app.post('/sign', async (req, res) => {
 
     createSd(req.body)
-    signer()
-    res.sendStatus(200)
+    const vc = await signer()
+    res.json(vc)
 })
 
 app.get('/callback', (req, res) => {
